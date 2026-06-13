@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Page</title>
+
+<style>
+    body{
+        margin:0;
+        background-color:#000;
+        color:white;
+        font-family:Arial, sans-serif;
+    }
+
+    .container{
+        width:80%;
+        margin:auto;
+        display:flex;
+        justify-content:space-between;
+        padding:80px 0;
+    }
+
+    .left{
+        width:40%;
+    }
+
+    .left h1{
+        font-size:60px;
+        font-family:Georgia, serif;
+        font-weight:normal;
+        margin-bottom:60px;
+    }
+
+    .details{
+        margin-bottom:50px;
+    }
+
+    .details h4{
+        color:#888;
+        letter-spacing:2px;
+        font-size:12px;
+        margin-bottom:15px;
+    }
+
+    .details p{
+        line-height:30px;
+        color:#ccc;
+    }
+
+    .right{
+        width:45%;
+    }
+
+    form input,
+    form textarea{
+        width:100%;
+        background:transparent;
+        border:none;
+        border-bottom:1px solid #444;
+        color:white;
+        padding:15px 0;
+        margin-bottom:40px;
+        font-size:16px;
+        outline:none;
+    }
+
+    form textarea{
+        height:120px;
+        resize:none;
+    }
+
+    button{
+        width:100%;
+        padding:18px;
+        background:transparent;
+        color:white;
+        border:1px solid #555;
+        cursor:pointer;
+        letter-spacing:2px;
+        transition:0.3s;
+    }
+
+    button:hover{
+        background:white;
+        color:black;
+    }
+
+    .social-links{
+        margin-top:80px;
+    }
+
+    .social-links a{
+        color:white;
+        text-decoration:none;
+        margin-right:30px;
+        letter-spacing:2px;
+        font-size:14px;
+    }
+
+    .social-links a:hover{
+        text-decoration:underline;
+    }
+
+    footer{
+        padding:30px 10%;
+        color:#aaa;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  
+    <div class="left">
+        <h1>VERDALE.</h1>
+
+        <div class="details">
+            <h4>ADDRESS</h4>
+            <p>
+                Verdale Restaurant<br>
+                Karur, Tamil Nadu<br>
+                India
+            </p>
+        </div>
+
+        <div class="details">
+            <h4>EMAIL</h4>
+            <p>verdalerestaurant@gmail.com</p>
+        </div>
+
+        <div class="details">
+            <h4>PHONE</h4>
+            <p>+91 98765 43210</p>
+        </div>
+    </div>
+
+
+    
+    <div class="right">
+
+        <form action="#" method="post">
+
+            <input type="text"
+                   name="name"
+                   placeholder="Name"
+                   required>
+
+            <input type="email"
+                   name="email"
+                   placeholder="Email"
+                   required>
+
+            <input type="text"
+                   name="subject"
+                   placeholder="Subject"
+                   required>
+
+            <textarea name="message"
+                      placeholder="Message"
+                      required></textarea>
+
+            <button type="submit">
+                SEND MESSAGE
+            </button>
+
+        </form>
+
+
+        <div class="social-links">
+
+            <a href="https://www.instagram.com/__.lxthii.__ /"
+               target="_blank">
+               INSTAGRAM
+            </a>
+
+            <a href="https://www.linkedin.com/"
+               target="_blank">
+               LINKEDIN
+            </a>
+
+            <a href="https://www.pinterest.com/"
+               target="_blank">
+               PINTEREST
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <div style="display: flex;gap: 300px;color: rgb(8, 8, 8);background-color: #bdbdbd; width: 100%;">
+       <div style="height:300px;width: 400px;padding: 15px;">
+        <h3>Our Services</h3>
+        <p>✓ Dine-In Experience</p>
+        <p>✓ Family Dining</p>
+        <p>✓ Online Reservations</p>
+        <p>✓ Takeaway & Delivery</p>
+    </div>
+
+     <div style="height:300px;width: 400px;padding: 15px;">
+        <h3>Contact Us</h3>
+        <p>📍 Verdale Restaurant, Madurai, Tamil Nadu</p>
+        <p>📞 +91 98765 43210</p>
+        <p>✉️ info@verdalerestaurant.com</p>
+        <p>🕒 Open Daily: 10:00 AM – 11:00 PM</p>
+    </div>
+
+     <div style="height:300px;width: 400px;padding: 15px;">
+        <p>© 2026 Verdale Restaurant. All Rights Reserved.</p>
+    </div>
+
+    </div>
+</footer>
+
+</body>
+</html>

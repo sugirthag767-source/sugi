@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Poppins:wght@300;400&display=swap');
+
+body {
+    margin: 0;
+    background-color: rgb(14, 13, 13);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(254, 252, 252);
+}
+
+.menu-section {
+    padding: 80px 8%;
+}
+
+.menu-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.menu-header p {
+    color: #d4b483;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 24px;
+    margin: 0;
+}
+
+.menu-header h1 {
+    color: #d4b483;
+    letter-spacing: 8px;
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.menu-container {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-column {
+    flex: 1;
+    min-width: 400px;
+}
+
+.menu-item {
+    margin-bottom: 50px;
+}
+
+.title-price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.title-price h3 {
+    color: #d4b483;
+    font-size: 18px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.title-price::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #d4b483;
+    margin: 0 15px;
+}
+
+.title-price span {
+    color: #d4b483;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.menu-item p {
+    margin: 0;
+    color: #f0f0f0;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+
+    </style>
+</head>
+<body>
+
+<section class="menu-section">
+    <div class="menu-header">
+        <p>Starters</p>
+        <h1>APPETIZERS</h1>
+    </div>
+
+    <div class="menu-container">
+
+        <div class="menu-column">
+
+            <div class="menu-item">
+                <div class="title-price">
+                    <h3>FOUR CHEESE GARLIC BREAD</h3>
+                    <span>$32</span>
+                </div>
+                <p>Toasted French bread topped with romano, cheddar</p>
+            </div>
+
+            <div class="menu-item">
+                <div class="title-price">
+                    <h3>SHRIMP SCAMPI</h3>
+                    <span>$25</span>
+                </div>
+                <p>Jumbo shrimp sauteed in white wine, butter and garlic</p>
+            </div>
+
+            <div class="menu-item">
+                <div class="title-price">
+                    <h3>FRIED CALAMARI</h3>
+                    <span>$38</span>
+                </div>
+                <p>Breaded calamari, lightly fried in canola oil</p>
+            </div>
+
+            <div class="menu-item">
+                <div class="title-price">
+                    <h3>PEACHY JALAPENO GUACAMOLE</h3>
+                    <span>$38</span>
+                </div>
+                <p>Ground cumin, avocados, peeled and cubed</p>
+            </div>
+
+        </div>
+
+
+        <div class="menu-column">
+
+            <div class="menu-item">
+                <div class="title-price">
+                    <h3>RASTRAMI ROLL</h3>
+                    <span>$29</span>
+                </div>
+                <p>Spreadable cream cheese, crumbled blue cheese</p>
+            </div>
+
+            <div class="menu-item">
+                <div class="title-price">
+                    <h3>BROWNIE BATTER DIP</h3>
+                    <span>$25</span>
+                </div>
+                <p>Cream cheese, softened butter, brown sugar</p>
+            </div>
+
+            <div class="menu-item">
+                <div class="title-price">
+                    <h3>CAPRESE SALAD KABOBS</h3>
+                    <span>$23</span>
+                </div>
+                <p>Cherry-size fresh mozzarella cheese balls</p>
+            </div>
+
+            <div class="menu-item">
+                <div class="title-price">
+                    <h3>SHRIMP SCAMPI</h3>
+                    <span>$17</span>
+                </div>
+                <p>Jumbo shrimp sauteed in white wine, butter and garlic</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+</body>
+<footer>
+    <div style="display: flex;gap: 300px;color: rgb(8, 8, 8);background-color: #bdbdbd;">
+       <div style="height:300px;width: 400px;padding: 15px;">
+        <h3>Our Services</h3>
+        <p>✓ Dine-In Experience</p>
+        <p>✓ Family Dining</p>
+        <p>✓ Online Reservations</p>
+        <p>✓ Takeaway & Delivery</p>
+    </div>
+
+     <div style="height:300px;width: 400px;padding: 15px;">
+        <h3>Contact Us</h3>
+        <p>📍 Verdale Restaurant, Madurai, Tamil Nadu</p>
+        <p>📞 +91 98765 43210</p>
+        <p>✉️ info@verdalerestaurant.com</p>
+        <p>🕒 Open Daily: 10:00 AM – 11:00 PM</p>
+    </div>
+
+     <div style="height:300px;width: 400px;padding: 15px;">
+        <p>© 2026 Verdale Restaurant. All Rights Reserved.</p>
+    </div>
+
+    </div>
+
+</footer>
+</html>

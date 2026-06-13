@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup Page</title>
+
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            background-image: url(p4.avif);  
+            font-family: Arial, sans-serif;
+            height:max-content;
+            width: 100%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container{
+            width: 85%;
+            max-width: 1200px;
+            background: white;
+            border-radius: 30px;
+            padding: 20px;
+
+            display: flex;
+            gap: 20px;
+
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .left-side{
+            flex: 1;
+            padding: 40px;
+        }
+
+        .right-side{
+            flex: 1;
+        }
+
+        .right-side img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 25px;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        input{
+            width: 100%;
+            padding: 15px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        button{
+            width: 100%;
+            padding: 15px;
+            background: #121212;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        
+.gender-horizontal-container {
+    display: flex;         
+    flex-direction: row;   
+    gap: 2px;           
+    align-items: center;   
+    margin-top:10px;      
+}
+
+
+.gender-option input {
+    margin-left:20px;
+}
+
+    </style>
+
+</head>
+
+<body>
+    <form>
+
+    <div class="container">
+
+        <div class="left-side">
+
+            <h1>Sign Up</h1>
+
+           NAME: <input type="text" placeholder="Name">
+
+           E-MAIL: <input type="email" placeholder="E-mail">
+
+            PASSWORD: <input type="password" placeholder="Password">
+
+
+            <form action="/signup" method="POST">
+    <div class="gender-title">Gender:</div>
+    <div class="gender-horizontal-container">
+        
+        <div class="gender-option">
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+        </div>
+
+        <div class="gender-option">
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+        </div>
+
+        <div class="gender-option">
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        </div>
+
+        <div class="gender-option">
+  <input type="radio" id="prefer-not-say" name="gender" value="prefer_not_to_say">
+            <label for="prefer-not-say">Prefer not to say</label>
+        </div>
+
+    </div>
+    <button onclick="change()">SUBMIT</button>
+</form>
+
+    
+     </div>
+
+        <div class="right-side">
+
+            <img src="image/p5.jpg" alt="Signup">
+
+        </div>
+
+    </div>
+    
+
+
+</body>
+</html>

@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+   background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    display:flex;
+    gap: 40px;
+
+}
+nav a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: large;
+    color: rgb(255, 237, 249);
+}
+li,ul,h2{
+    display: inline;
+}
+ul{
+
+}
+.logo{
+    color: rgb(33, 32, 29);
+    font-size: large;
+}
+.right{
+    display: inline;
+    margin-left: 40%;
+    
+
+}
+button{
+background-color: rgb(10, 10, 9);
+color: aliceblue;
+size: 100px;
+border: solid;
+
+}
+header{
+    background-color: rgb(254, 232, 246);
+    padding: 20px;
+}
+input{
+    width: 60%;
+    padding: 15px;
+    
+}
+.searchbar{
+     padding: 25px;
+    text-align: center;
+}
+.box{
+    border-style: solid;
+    border-width: 2px;
+    display: inline-block;
+    border-color: black;
+    width: 220px;
+    cursor: pointer;
+   
+}
+.box:hover{
+    background-color:antiquewhite;
+    color: black;
+}
+.topic {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(7, 7, 7);
+}
+h2 {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300; 
+    font-size: 48px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: black;
+
+}
+.sentence {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;   
+    line-height: 1.8;
+}
+footer{
+    background-color: black;
+}
+.heading {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 80px;
+    color: #4a0f1f;
+    text-align: center;
+    line-height: 1.1;
+}
+.image{
+    background-color: rgb(249, 212, 219);
+
+}
+.banner{
+    background-image: url(p7.jpg);
+    width: 100%;
+    max-height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner p{
+    text-align: center;
+    font-size: 30px;
+
+}
+
