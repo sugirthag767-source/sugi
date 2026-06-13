@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Values - Verdale Restaurant</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            background-color:#000;
+            color:#ffffff;
+            font-family:'Montserrat', sans-serif;
+            line-height:1.8;
+        }
+
+
+        .hero{
+            text-align:center;
+            padding:100px 20px 60px;
+        }
+
+        .hero h1{
+            font-family:'Cormorant Garamond', serif;
+            font-size:80px;
+            font-weight:500;
+            letter-spacing:4px;
+            color:#f5f5f5;
+        }
+
+        .hero p{
+            color:#b8b8b8;
+            font-size:18px;
+            max-width:700px;
+            margin:20px auto;
+        }
+
+      
+
+        .container{
+            width:85%;
+            margin:auto;
+            padding-bottom:80px;
+        }
+
+        .value-box{
+            display:flex;
+            align-items:center;
+            gap:50px;
+            margin-bottom:80px;
+            background-color:#111;
+            border:1px solid #222;
+            padding:30px;
+        }
+
+        .value-box:nth-child(even){
+            flex-direction:row-reverse;
+        }
+
+        .value-box img{
+            width:45%;
+            height:350px;
+            object-fit:cover;
+        }
+
+        .content{
+            width:55%;
+        }
+
+        .content h2{
+            font-family:'Cormorant Garamond', serif;
+            font-size:50px;
+            color:#d4af37;
+            margin-bottom:20px;
+        }
+
+        .content p{
+            color:#d0d0d0;
+            font-size:17px;
+            text-align:justify;
+        }
+
+       
+
+        .quote{
+            text-align:center;
+            padding:80px 20px;
+            border-top:1px solid #222;
+        }
+
+        .quote h3{
+            font-family:'Cormorant Garamond', serif;
+            font-size:42px;
+            font-style:italic;
+            color:#d4af37;
+            max-width:800px;
+            margin:auto;
+        }
+
+        footer{
+            text-align:center;
+            padding:30px;
+            color:#888;
+            border-top:1px solid #222;
+        }
+
+        @media(max-width:768px){
+
+            .hero h1{
+                font-size:55px;
+            }
+
+            .value-box,
+            .value-box:nth-child(even){
+                flex-direction:column;
+            }
+
+            .value-box img,
+            .content{
+                width:100%;
+            }
+
+            .content h2{
+                font-size:40px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+    <section class="hero">
+
+        <h1>Our Values</h1>
+
+        <p>
+            At Verdale Restaurant, our values shape every experience we create.
+            They inspire the way we cook, serve, and connect with every guest
+            who walks through our doors.
+        </p>
+
+    </section>
+
+
+    <div class="container">
+
+    
+
+        <div class="value-box">
+
+            <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1000"
+                 alt="Fresh Ingredients">
+
+            <div class="content">
+
+                <h2>Freshness First</h2>
+
+                <p>
+                    We believe exceptional meals begin with exceptional ingredients.
+                    Every dish is prepared using carefully selected produce, quality
+                    spices, and fresh elements that bring authentic flavors to life.
+                    Our commitment to freshness ensures that every bite reflects
+                    purity, taste, and excellence.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="value-box">
+
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1000"
+                 alt="Hospitality">
+
+            <div class="content">
+
+                <h2>Heartfelt Hospitality</h2>
+
+                <p>
+                    Dining is more than enjoying delicious food; it is about feeling
+                    welcomed and valued. We strive to create an atmosphere where every
+                    guest is treated with warmth, respect, and genuine care. Your comfort
+                    and happiness remain at the center of everything we do.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="value-box">
+
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1000"
+                 alt="Quality">
+
+            <div class="content">
+
+                <h2>Passion for Excellence</h2>
+
+                <p>
+                    Excellence is achieved through consistency and dedication.
+                    From the kitchen to the dining area, our team is committed
+                    to delivering experiences that exceed expectations. Attention
+                    to detail and continuous improvement define our pursuit of perfection.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="value-box">
+
+            <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=1000"
+                 alt="Community">
+
+            <div class="content">
+
+                <h2>Creating Connections</h2>
+
+                <p>
+                    Food has the remarkable ability to bring people together.
+                    Whether it is a family celebration, a gathering among friends,
+                    or a quiet meal shared between loved ones, we are honored to
+                    be part of life's meaningful moments and cherished memories.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <section class="quote">
+
+        <h3>
+            "Great food nourishes the body,
+            but genuine hospitality touches the soul."
+        </h3>
+
+    </section>
+
+
+  <footer>
+    <div style="display: flex;gap: 300px;color: aliceblue;">
+       <div style="height:300px;width: 400px;padding: 15px;">
+        <h3>Our Services</h3>
+        <p>✓ Dine-In Experience</p>
+        <p>✓ Family Dining</p>
+        <p>✓ Online Reservations</p>
+        <p>✓ Takeaway & Delivery</p>
+    </div>
+
+     <div style="height:300px;width: 400px;padding: 15px;">
+        <h3>Contact Us</h3>
+        <p>📍 Verdale Restaurant, Madurai, Tamil Nadu</p>
+        <p>📞 +91 98765 43210</p>
+        <p>✉️ info@verdalerestaurant.com</p>
+        <p>🕒 Open Daily: 10:00 AM – 11:00 PM</p>
+    </div>
+
+     <div style="height:300px;width: 400px;padding: 15px;">
+        <p>© 2026 Verdale Restaurant. All Rights Reserved.</p>
+    </div>
+
+    </div> 
+
+    </footer>
+
+</body>
+</html>
